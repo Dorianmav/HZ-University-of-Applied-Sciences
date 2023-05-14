@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-toto est beau
-=======
 toto est grand
->>>>>>> b1
+
