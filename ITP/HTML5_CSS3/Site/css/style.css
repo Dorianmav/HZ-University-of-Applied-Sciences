@@ -1,0 +1,132 @@
+/* partie header et footer */
+header, footer {
+    color: black;
+    background-color: white;
+    padding: 20px 50px;
+}
+
+footer,
+nav, #info-alternace-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reseaux {
+    width: 1em;
+}
+
+.reseaux:hover{
+    opacity: 0.5 ;
+}
+
+#referent {
+    color: black;
+}
+
+/* les titres */
+h1 {
+    font-size: 3.5em;
+    color: #a5b4fc;
+    margin: 25px;
+}
+
+h2 {
+    color: #f9f8ff;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    margin: 25px;
+}
+
+.titre_page {
+    text-align: center;
+    text-shadow: 1px 1.5px 0px wheat;
+}
+
+/* les liens */
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Manrope', sans-serif;
+}
+
+nav a {
+  margin-left: 30px;
+}
+
+a:visited {
+    color: black;
+}
+
+.lien_de_page:hover{
+    text-decoration: underline;
+}
+
+.lien_de_page {
+    color: #242424;
+}
+
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  background-color: #1f2039;
+}
+
+p {
+    color: #f9f8ff;
+}
+
+.cta {
+  background-color: #4facfe;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 20px 30px;
+}
+
+#test {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.cta:hover {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    
+}
+
+@media screen and (max-width: 996px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header nav img {
+    margin-bottom: 20px;
+  }
+
+  header,
+  footer {
+    padding: 20px 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  section {
+    padding: 50px 20px 50px 20px;
+  }
+
+  nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

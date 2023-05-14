@@ -1,0 +1,147 @@
+.container {
+    overflow: hidden;
+    display: flex;
+}
+
+/* ------------------------------------------------------ la partie cv ------------------------------------------------------------*/
+/* bandeau gauche */
+aside {
+    flex: 0 0 auto;
+}
+
+.bandeau_gauche {
+    background-color: #1081c6;
+    color: white;
+    width: 25%;
+    /* max-width: 300px; /* Définis la largeur maximale que tu souhaites pour ton élément */
+    margin: 0; /* Centre l'élément horizontalement */
+    padding: 25px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+#photo_cv {
+    width: 200px;
+    /* padding-top: 1.5em; */
+}
+
+.sstitre {
+    padding-left: 25px;
+}
+
+.cv-h2-bandeau {
+    border-bottom: 2px white solid;
+}
+
+/* main */
+.cv {
+    flex: 1;
+    color: #3b4a74;
+    background-color: white;
+}
+
+#cv-titre {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 5em;
+    color: #3b4a74;
+}
+
+.cv-sous-titre {
+    font-size: 2em;
+    font-weight: bold ;
+    color: #3b4a74;
+    text-shadow: none;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 0;
+    border-bottom: 2px #3b4a74 solid;
+}
+
+.mini-info {
+    margin: 25px;
+    color: #3b4a74;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#petite_description {
+    margin: 25px;
+    color: #3b4a74;
+    text-align: justify;
+}
+
+.block {
+    margin: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contacter {
+    text-align: center;
+    color: #a5b4fc;
+    text-shadow: 1px 1.5px 0px wheat;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  color: white;
+}
+
+.form-nom-email {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type='submit'] {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 996px) {
+  
+
+  img {
+    order: 1;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  div {
+    flex-direction: column;
+  }
+
+  .section-contact {
+    padding: 50px 20px;
+  }
+
+  .form-nom-email {
+    flex-direction: column;
+    gap: 0;
+  }
+}
