@@ -1,0 +1,6 @@
+[submodule "ITP/Javascript_web/7697016-Back-End"]
+	path = ITP/Javascript_web/7697016-Back-End
+	url = https://github.com/OpenClassrooms-Student-Center/7697016-Back-End.git
+[submodule "ITP/Javascript_web/site-web"]
+	path = ITP/Javascript_web/site-web
+	url = https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1.git
