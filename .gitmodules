@@ -7,3 +7,6 @@
 [submodule "ITP/FullStack/frontend/frontend"]
 	path = ITP/FullStack/frontend/frontend
 	url = https://github.com/OpenClassrooms-Student-Center/go-fullstack-v3-fr.git
+[submodule "ITP/FullStack/go-fullstack-v3-fr"]
+	path = ITP/FullStack/go-fullstack-v3-fr
+	url = https://github.com/OpenClassrooms-Student-Center/go-fullstack-v3-fr.git
